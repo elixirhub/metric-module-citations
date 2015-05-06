@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components_metrics>
+	<component>
+	 <name>metric-module-citations</name>
+	 <description>Citations in publications</description>
+	 <authors>Artaza Haydee, Manuel Corpas, Rafael Jimenez</authors>
+	 <input>swissprot,swiss prot,swiss-prot,UniProtKB,uniprot</input>
+	 <output>number</output>
+	 <dependences>
+		<library>xml2js</library> 
+	 </dependences>
+	 <frequency>monthly</frequency>
+	 <resource>
+		<rsc>database</rsc>	
+	 </resource>
+	 <repository>https://github.com/elixirhub/metrics-framework.git</repository>
+	</component>
+</components_metrics>
