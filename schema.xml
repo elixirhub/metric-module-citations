@@ -13,6 +13,6 @@
 	 <resource>
 		<rsc>database</rsc>	
 	 </resource>
-	 <repository>https://github.com/elixirhub/metrics-framework.git</repository>
+	 <repository>https://github.com/elixirhub/metric-module-citations.git</repository>
 	</component>
 </components_metrics>
