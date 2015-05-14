@@ -4,15 +4,17 @@
 	 <name>metric-module-citations</name>
 	 <description>Citations in publications</description>
 	 <authors>Artaza Haydee, Manuel Corpas, Rafael Jimenez</authors>
-	 <input>swissprot,swiss prot,swiss-prot,UniProtKB,uniprot</input>
+	 <input>
+      <parameter>swissprot,swiss prot,swiss-prot,UniProtKB,uniprot</parameter>
+     </input>
 	 <output>number</output>
-	 <dependences>
+	 <dependencies>
 		<library>xml2js</library> 
-	 </dependences>
+	 </dependencies>
 	 <frequency>monthly</frequency>
-	 <resource>
+	 <resources>
 		<rsc>database</rsc>	
-	 </resource>
+	 </resources>
 	 <repository>https://github.com/elixirhub/metric-module-citations.git</repository>
 	</component>
 </components_metrics>
