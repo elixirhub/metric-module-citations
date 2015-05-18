@@ -1,7 +1,8 @@
 var fs = require('fs');
 var Citation = require('../citation');
 var parseString = require('xml2js').parseString;
-var keyword = 'swissprot,swiss prot,swiss-prot,UniProtKB,uniprot';
+//var keyword = 'swissprot,swiss prot,swiss-prot,UniProtKB,uniprot';
+var keyword = process.argv[2];
 
 var citation = new Citation();
 var file_output = 'citation.txt'
